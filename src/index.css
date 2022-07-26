@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  height: 100vh;
+  /* background-image: url(https://images.pexels.com/photos/1319854/pexels-photo-1319854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+  background-image: url(https://i.pinimg.com/564x/9e/ec/3f/9eec3fa81ba769985b461eb055d1cb73.jpg);
+  background-size: contain;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+}
+
+
+
+
+.main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.library{
+  
+  background-color: #f8f2f22a;
+  backdrop-filter: blur(10px);
+  height: 100vh;
+} 

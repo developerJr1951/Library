@@ -1,0 +1,87 @@
+
+/* Navbar */
+.menu{
+    background-color: rgb(58, 68, 211);
+    padding: 20px 10px;
+    margin: 10px 10px 0px 10px;
+    font-size: larger;
+position: relative;
+}
+nav >ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+  justify-content: space-around;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  li{
+    list-style: none;
+  }
+
+.logout{
+position: absolute;
+top: 12px;
+right: 10px;
+padding: 10px;
+border: none;
+border-radius: 10px;
+background-color: rgb(236, 62, 62);
+font-size: medium;
+transition: all 0.5s;
+font-weight: 550;
+}
+.logout:hover{
+    cursor: pointer;
+    background-color: rgb(236, 89, 89);
+    font-weight: bolder;
+    letter-spacing: 2px
+}
+
+.logout:active{
+    
+    background-color: rgb(206, 39, 39);
+}
+/* Home */
+.screen_home{
+    background-color: azure;
+margin: 0 10px;
+}
+.screen_home >h1{
+    margin: 0;
+
+}
+
+/* List book */
+.screen_mylist{
+    background-color: rgb(255, 255, 255);
+    margin: 0 10px;
+    min-height: 800px;
+
+}
+.screen_mylist>h1{
+    text-align: center;
+margin: 0;
+}
+
+.card img{
+    
+    width: 130px;
+    border: 1px solid white;
+  }
+  .card{
+    background-color: rgb(66, 66, 66);
+    padding: 30px 100px;
+    border: 0.5px solid rgb(54, 53, 53);
+    border-radius: 10px;
+    margin: 10px 100px;
+    box-shadow: 10px 12px 10px rgb(119, 117, 117);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }

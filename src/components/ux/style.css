@@ -1,0 +1,27 @@
+.screen_loading{
+    background-color: #f8f2f22a;
+    backdrop-filter: blur(20px);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.loading__img img{
+    width: 600px;
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+}
+
+.loading__title{
+    position: absolute;
+    bottom: 200px;
+    background-color: #08080849;
+    backdrop-filter: blur(20px);
+    padding: 0 10px;
+    border-radius: 10px;
+    /* background-color: red; */
+}
